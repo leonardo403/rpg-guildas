@@ -1,10 +1,10 @@
 <?php
 
-namespace PlayerRepository;
+namespace App\Repositories;
 
 use PlayerRepositoryInterface;
 
 class PlayerRepository implements PlayerRepositoryInterface
 {
-    // Implementação dos métodos aqui
+    
 }

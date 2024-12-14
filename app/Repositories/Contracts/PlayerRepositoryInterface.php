@@ -1,8 +1,11 @@
 <?php
 
-namespace PlayerRepositoryInterface;
+namespace App\Repositories\Contracts;
+
+use Illuminate\Support\Collection;
 
 interface PlayerRepositoryInterface
 {
-    // Defina os métodos aqui
+    public function getConfirmedPlayers(): Collection;
+    public function findById(int $id): ?object;
 }
