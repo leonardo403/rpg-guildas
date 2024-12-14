@@ -10,7 +10,7 @@ class Players extends Component
 {
 
     public $name;
-    public $class_id;
+    public $classId;
     public $xp;
 
     public function render()
@@ -28,7 +28,7 @@ class Players extends Component
 
         Player::create([
             'name' => $this->name,
-            'class_id' => $this->class_id,
+            'class_id' => $this->classId,
             'xp' => $this->xp,
         ]);
 
